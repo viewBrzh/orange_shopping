@@ -76,10 +76,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   icon: Icon(Icons.shopping_cart), 
                   color: Colors.grey, 
                   onPressed: () {
-                    // if (usCart.productList[0].name == ''){
-                    //   usCart.productList[0].name = 'Your Cart Is Currently Empty!';
-                    //   usCart.productList[0].img = 'lib/images/empty_cart.png';
-                    // }
                           
                     Navigator.push(
                       context,
